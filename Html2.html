@@ -1,0 +1,97 @@
+<html>
+
+<head>
+
+    <link rel="icon" type="image/png" href="img/koi%20fish%203.png" />
+
+
+
+    <title>Pony Pondo</title>
+
+    <link rel="stylesheet" type="text/css" href="Html2.css">
+
+</head>
+
+<body>
+
+    <nav>
+
+        <h1>
+
+            Pondy Pondo
+        </h1>
+
+        <div class="clickme">
+            <center>
+
+                <audio id="audio" src="Audio/elevator.mp3"></audio>
+                <img src="img/click%20me.png" align="right" align="" width=90 height=50 class="shake-slow shake-constant">
+
+                <img id="img" src="img/frog.png" align="right" align="" width=70 height=70 class="shake-slow shake-constant">
+
+            </center>
+            <script>
+                document.getElementById("img").addEventListener("click", function() {
+                    document.getElementById("audio").play();
+                });
+
+            </script>
+        </div>
+
+        <hr />
+
+        <ul>
+            <!--Add a good menu-->
+            <li class="options"><a id="menulink" href="Html1.html">Home</a></li>
+
+            <li class="options"><a href="#">Contact Us</a></li>
+            
+            <li class="options"><a href="Html3.html">Schedule</a></li>
+
+        </ul>
+    </nav>
+
+<img src="img/trans.png" width=70 height=30 >
+
+    <div class="container">
+        <form>
+
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Fulanito">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="De Tal">
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+                <option value="mexico">Mexico</option>
+                <option value="unitedkingdom">United Kingdom</option>
+                <option value="canada">Canada</option>
+                <option value="unitedstates">United States</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea id="subject" name="subject" placeholder="I want an enormus fish!!!" style="height:200px"></textarea>
+
+            <input type="submit" value="Submit">
+
+        </form>
+    </div>
+
+
+
+    <footer>
+        
+        Designer and programmer: Emilio Guadarrama.
+        <br />
+        Moral support: Mauro Visoso.
+
+        
+
+    </footer>
+
+
+
+</body>
+
+</html>
